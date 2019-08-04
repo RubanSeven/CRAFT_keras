@@ -1,7 +1,7 @@
 # CRAFT_keras
-论文地址：Character Region Awareness for Text Detection
+论文地址：[Character Region Awareness for Text Detection](https://arxiv.org/abs/1904.01941)
 
-作者推理部分的代码：clovaai/CRAFT-pytorch 
+作者推理部分的代码：[clovaai/CRAFT-pytorch](https://github.com/clovaai/CRAFT-pytorch)
 ## 概述
 本文用Keras实现了CRAFT文本检测算法，通过预测单个字符的高斯热图以及字符间的连接性来检测文本。
 
@@ -38,9 +38,9 @@ VGG16采用Keras自带的，没有加入BN
 ### 生成高斯热图模板
 参考CornerNet生成一个正方形的2D高斯热图。
 
-论文地址：princeton-vl/CornerNet
+论文地址：[princeton-vl/CornerNet](https://github.com/princeton-vl/CornerNet)
 
-Github：princeton-vl/CornerNet
+Github：[princeton-vl/CornerNet](https://github.com/princeton-vl/CornerNet)
 
 ### 生成Region Score GT和Affinity Score GT
 使用Opencv中的PerspectiveTransform计算出对应形状的高斯热图，热图出现重合时，本文参考CenterNet的做法，取分数最大值。
