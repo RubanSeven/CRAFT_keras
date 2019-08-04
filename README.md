@@ -110,6 +110,6 @@ fine-tuning期间，弱标签数据和强标签数据按照1:5的比例进行训
 
 按照1:3使用OHEM。
 ## 推理
-由于直接使用了作者的推理代码，只在几处细节上做了一些调整，以提高推理速度。此处就不详细说明了。
+由于直接使用了作者的推理代码，此处就不详细说明了。
 ## 论文中的结果
 ![image](https://raw.githubusercontent.com/RubanSeven/CRAFT_keras/master/images/result.png)
